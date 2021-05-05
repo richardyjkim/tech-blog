@@ -3,6 +3,7 @@ const express = require('express');
 const session = require('express-session');
 const exphbs = require('express-handlebars');
 
+
 const app = express();
 const PORT = process.env.PORT || 3001;
 
@@ -25,8 +26,11 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(require('./controller'));
 
-app.engine('handlebars', hbs.engine);
-app.set('view engine', 'handlebars');
+// const helpers = require('./utils/helpers');
+// const hbs = exphbs.create({ helpers });
+
+// app.engine('handlebars');
+// app.set('view engine', 'handlebars');
 
 sequelize.sync();
 
