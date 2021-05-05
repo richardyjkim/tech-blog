@@ -27,10 +27,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(require('./controller'));
 
 // const helpers = require('./utils/helpers');
-// const hbs = exphbs.create({ helpers });
+const hbs = exphbs.create({});
 
-// app.engine('handlebars');
-// app.set('view engine', 'handlebars');
+app.engine('handlebars', hbs.engine);
+app.set('view engine', 'handlebars');
 
 sequelize.sync();
 
