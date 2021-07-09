@@ -1,12 +1,12 @@
-### 14. Model-View-Controller (MVC) Challenge: Tech Blog
+### 16. Interactive Full-Stack Project
 
 ## Description 
 
-Hi, 
+“The mind is not a vessel to be filled, but a fire to be kindled.”
 
-AS A developer who writes about tech
-YOU  WANT a CMS-style blog site
-SO THAT YOU can publish articles, blog posts, and my thoughts and opinions
+Were you too embarassed to share your toughts, May "Mind-setter" bring you the peace.
+
+Share your thoughts on your blog to get love and favor by commenting by others. "Mind-setter" Free judgement Zone
 
 ## Table of Contents (Optional)
 
@@ -20,26 +20,49 @@ SO THAT YOU can publish articles, blog posts, and my thoughts and opinions
 
 ## Installation
 
-- Please visit Website https://agile-woodland-95760.herokuapp.com/
-
+- Please visit Website https://enigmatic-bayou-14711.herokuapp.com/
 
 ## Usage 
 
 
 ![alt text](./Assets/screenshot/ss1.png)
 
-- Here is the main page where you can leave your toughts
+- Once Your logged in, you see the list of people, What the think, when post was created and the 'love btn' so you can love the post!
+
+![alt text](./Assets/screenshot/ss4.png)
+- try not to over use love, we will already know how much you love the post
 
 ![alt text](./Assets/screenshot/ss2.png)
 
-- but first you gotta log in. not member? no problem created account and it will directly navigate you to post something on your mind.
+- once you click the love btn, system will confirm your favor of post
 
 ![alt text](./Assets/screenshot/ss3.png)
 
-- simply pressing "+ New post" to post stuff
+- but first, you gotta log in
 
-![alt text](./Assets/screenshot/ss4.png)
-- Something to say about others post? press the post you wish to leave comment to, and leave the command, your commend wll tail thier posts
+![alt text](./Assets/screenshot/ss5.png)
+
+- Not a member? no problem, sign in now!!
+
+![alt text](./Assets/screenshot/ss6.png)
+
+- click the MINDSET to see all you've POST + all the comment people commented
+
+![alt text](./Assets/screenshot/ss7.png)
+
+- Gotta change your mind? You meant to say something else instead? Rethink to update your mind, or simply medidate to flush your thoughts!
+
+![alt text](./Assets/screenshot/ss8.png)
+
+- wanna leave the comment? 2 ways to leave the comment: 
+1. press comment btn on main pg
+or
+2. go to the post and leave the comment there
+easy
+
+- BE SURE TO LOG OUT BEFORE YOU LEAVE. DO NOT LET OTHERS TO INVADE YOUR BRAIN
+
+
 
 
 ## Technology
